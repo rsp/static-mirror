@@ -1,0 +1,6 @@
+[build]
+  publish = "build"
+  command = "./mirror"
+[template.environment]
+  URL = "The URL of the website that you want to mirro"
+
