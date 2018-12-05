@@ -7,7 +7,12 @@ The purpose is to have a fast version of
 a WordPress powered website
 with as little efford as possible.
 
+To deploy to Netlify, click this button:
+
 [![Deploy to Netlify][netlify-img]][netlify-url]
+
+and when it asks you choose the respositiry name
+and enter the URL of the website that you want to mirror.
 
 Issues
 ------
