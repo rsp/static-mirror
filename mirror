@@ -2,5 +2,8 @@
 
 [ -n "$URL" ] || { echo Error: Missing URL environment variable; exit 1; }
 
+mkdir -p build
+cd build
+
 wget -k -K -E -r -l 10 -p -N -F --restrict-file-names=windows -nH "$URL"
 
