@@ -2,6 +2,8 @@
 
 [ -n "$URL" ] || { echo Error: Missing URL environment variable; exit 1; }
 
+[ -e build ] && { echo Error: The build directory already exists; exit 1; }
+
 mkdir -p build
 cd build
 
