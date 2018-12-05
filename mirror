@@ -9,3 +9,5 @@ cd build
 
 wget -k -K -E -r -l 10 -p -N -F --restrict-file-names=windows -nH "$URL"
 
+echo Exit status of wget: $?
+
