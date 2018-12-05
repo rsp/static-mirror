@@ -7,6 +7,8 @@ The purpose is to have a fast version of
 a WordPress powered website
 with as little efford as possible.
 
+[![Deploy to Netlify][netlify-img]][netlify-url]
+
 Issues
 ------
 For any bug reports or feature requests please
@@ -25,6 +27,8 @@ License
 -------
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
+[netlify-img]: https://www.netlify.com/img/deploy/button.svg
+[netlify-url]: https://app.netlify.com/start/deploy?repository=https://github.com/rsp/static-mirror
 [github-url]: https://github.com/rsp/static-mirror
 [readme-url]: https://github.com/rsp/static-mirror#readme
 [issues-url]: https://github.com/rsp/static-mirror/issues
